@@ -139,10 +139,6 @@ section#apresentacao2 img{
 }
 
 
-
-
-
-
 section#form{
     width: 90%;
     margin: auto;
@@ -200,7 +196,7 @@ section#form{
     section#carousel{
         height: 50%;
         width: 100%;
-       display: none;;
+       display: none;
         
     }
   }
