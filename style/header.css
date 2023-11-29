@@ -1,0 +1,71 @@
+header{
+   display: flex;
+   width: 100%;
+   align-items: baseline;
+
+}
+
+header img{
+    width: 10rem;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+header nav{
+    
+    background-color: white;
+    
+}
+header a{
+    color: blue;
+}
+
+div#redes-sociais{
+    position: absolute;
+    left: 70%;
+    top: 5%;
+    display: flex;
+    
+    
+}
+
+div#redes-sociais img{
+    width: 7%;
+    padding: 0;
+    margin: 0;
+    margin-left: 1rem;
+}
+
+div#redes-sociais p{
+    margin: auto 1rem auto 1rem;
+}
+
+@media (max-width: 600px) {
+    header{
+        display: block;
+        height: 4.5rem;
+        width: 100%;
+    
+     }
+
+     header img{
+        width: 10rem;
+        margin-left: 0rem;
+        margin-top: 0.1rem;
+        position: absolute;
+        z-index: 2;
+        right: 5%;
+    }
+
+    div#redes-sociais{
+       display: none;   
+    }
+
+    header nav{
+        margin: auto;
+        z-index: 1;
+        background-color: white;
+    }
+   
+    
+}
