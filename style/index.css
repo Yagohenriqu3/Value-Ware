@@ -1,8 +1,44 @@
-section#carousel{
-    height: 50%;
+@font-face {
+    font-family: furore,sans-serif ;
+    src: url(/font/Furore.otf);
+}
+
+
+section#home{
+    height: 50rem;
     width: 100%;
+    background-image: url(/img/grafico.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
    
     
+}
+
+
+section#home div#container{
+    width: 40%;
+    translate: 20% 70%;
+    border-radius: 1rem;
+    padding: 0.5rem;
+
+} 
+
+section#home div#container h1{
+    background-color: rgba(255, 255, 255, 0.219);
+    width: 85%;
+    font-size: 6rem;
+    border-radius: 0.5rem;
+}
+
+section#home div#container h2{
+    font-weight: bolder;
+    font-size: 2.7rem;
+    text-shadow: 0px 0px 1px rgb(0, 0, 0);
+    border-bottom: 1px solid #02351b;
+    border-width: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
 }
 
 section#apresentacao{
@@ -134,8 +170,8 @@ section#apresentacao2 p{
     width: 98%;
 }
 section#apresentacao2 img{
-    width: 98%;
-    height: 100%;
+    width: 35rem;
+    height: auto;
 }
 
 
@@ -153,24 +189,92 @@ section#form{
     
 }
 
-@media (max-width: 900px) {
-    section#apresentacao-mobile{
-        display: block;
-    }
+section.fixed{
+    background-color: white;
+    border-style: solid;
+    border-radius: 2rem;
+    border-width: 2px;
+    border-color: #02351b;
+    width: 14rem;
+    height: 3rem;
+    position: fixed;
+    display: flex;
+    z-index: 10;
+    box-shadow: 5px 5px 1px #02351b;
+    bottom: 10px;
+    right: 10px;
+    text-align: center;
+    align-items: center;
+    transition: 0.5s;
+    
+    
+  }
+  section.fixed:hover{
+    width: 14.5rem;
+    height: 3.5rem;
+    
+    transition: 0.5s;
+    box-shadow: 7px 7px 1px #02351b;
+  }
 
-    section#apresentacao-mobile img{
+  section.fixed a:hover{
+    font-size: 1.6rem;
+    transition: 0.5s;
+  }
+  
+  section.fixed a{
+    text-decoration: none;
+    color: #02351b;
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+    
+  }
+
+  section.fixed a img{
+    width: 2.5rem;
+    margin: auto;
+    margin-left: 15px;
+    margin-right: 3px;
+  }
+
+@media (max-width: 900px) {
+    
+    section#home{
+        height: 50rem;
         width: 100%;
+        background-image: url(/img/grafico.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed; 
     }
-    section#apresentacao-mobile h5{
-        position: absolute;
+    
+    
+    section#home div#container{
         width: 80%;
-        top:20%;
-        left: 5%;
-        font-size: 2rem;
-        color: white;
-        background-color: rgba(0, 0, 0, 0.13);
+        translate: 10% 30%;
+        border-radius: 1rem;
         padding: 0.5rem;
-        border-radius: 0.6rem;
+    
+    } 
+    
+    section#home div#container h1{
+        background-color: rgba(255, 255, 255, 0);
+        width: 85%;
+        text-shadow: 1px 1px 2px #02351b;
+        font-size: 4rem;
+        border-radius: 0.5rem;
+    }
+    
+    section#home div#container h2{
+        color: white;
+        text-shadow: 1px 1px 5px #02351b;
+        font-weight: bolder;
+        font-size: 2rem;
+        border-bottom: 1px solid #02351b;
+        border-width: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
     }
     
     section#apresentacao{
@@ -199,4 +303,17 @@ section#form{
        display: none;
         
     }
+  }
+
+  section.fixed a{
+    margin-left: 5px;
+    margin-top: -5px;
+   
+}
+
+  section.fixed a img{
+    width: 2.2rem;
+    margin-left: 0px;
+    margin-top: 4px;
+    margin-right: 10px;
   }
