@@ -283,7 +283,10 @@ section.fixed{
     section#apresentacao2{
         display: block;
     }
-
+    section#apresentacao2 img{
+        width: 20rem;
+        height: auto;
+    }
     section#cards{
         display: block;
     }
@@ -302,14 +305,14 @@ section.fixed{
         width: 100%;
        display: none;
         
-    }
+   
   }
 
   section.fixed a{
     margin-left: 5px;
     margin-top: -5px;
    
-}
+    }
 
   section.fixed a img{
     width: 2.2rem;
@@ -317,3 +320,4 @@ section.fixed{
     margin-top: 4px;
     margin-right: 10px;
   }
+}
