@@ -243,7 +243,7 @@ section.fixed{
     section#home{
         height: 50rem;
         width: 100%;
-        background-image: url(/grafico.jpg);
+        background-image: url(../img/grafico.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
