@@ -57,9 +57,7 @@ section#apresentacao{
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.150);
 }
 
-section#apresentacao-mobile{
-    display: none;
-}
+
 
 section#apresentacao h1{
     color: #044D29;
@@ -69,6 +67,9 @@ section#apresentacao img{
     height: 100%;
 }
 
+section#apresentacao-mobile{
+    display: none;
+}
 section#valores{
     text-align: center;
     padding: 2rem 1rem;
@@ -163,15 +164,16 @@ section#apresentacao2{
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.150);
 }
 
+section#apresentacao2 p{
+    width: 95%;
+}
+
 section#apresentacao2 h1{
     color: #044D29;
 }
-section#apresentacao2 p{
-    width: 98%;
-}
 section#apresentacao2 img{
     width: 35rem;
-    height: auto;
+    
 }
 
 
@@ -252,13 +254,7 @@ section#form{
         margin: auto;
     }
 
-    section#carousel{
-        height: 50%;
-        width: 100%;
-       display: none;
-        
-   
-  }
+    
 
   
 }
