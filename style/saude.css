@@ -1,0 +1,80 @@
+body{
+    text-align: justify;
+}
+
+h1#titulo-pagina{
+    font-size: 4rem;
+    text-align: center;
+    position: absolute;
+    translate: 50% 100%;
+    
+}
+
+section#apresentacao{
+    background-image: url(../img/saude/medica.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 30rem;
+}
+
+article{
+    width: 80%;
+    margin: auto;
+}
+
+div#container{
+    display: flex;
+    position: relative;
+    
+
+}
+
+.navfixed{
+    position: sticky;
+    align-items: center;
+    background-color: #044D29;
+   
+}
+
+.navfixed a{
+    color: white;
+    transition: 0.5s;
+    width: 100%;
+    text-align: center;
+}
+
+.navfixed a:hover{
+    color: #044D29;
+    background-color: white;
+    transition: 0.5s;
+    font-weight: bolder;
+}
+article{
+    height: 40rem;
+    overflow-y: scroll;
+    width: 80%;
+    margin-right: 0;
+    scroll-behavior: smooth;
+    padding: 1.5rem;
+}
+
+div.conteudo{
+    height: 30rem;
+    overflow-y: scroll;
+    
+}
+
+@media(max-width:900px){
+    div#container{
+        display: block;
+        position: sticky;
+    }
+
+    article{
+        width: 100%;
+    }
+
+}
+
