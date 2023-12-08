@@ -141,7 +141,8 @@ h1#titulo-servicos{
 section#cards{
     display: flex;
     margin: auto;
-    width: 70%;
+    
+    width: 60%;
     margin-top: -7rem;
     margin-bottom: 2rem;
     
@@ -174,6 +175,7 @@ section#conteudo div.card{
     margin: auto;
     margin-top: 1rem;
     display: flex;
+    width: 100%;
 }
 div#ancoras{
     display: flex;
@@ -558,18 +560,5 @@ section#sobre-nos-mobile{
     }
 
     
-    section#cards{
-        align-items: center;
-        width: 100%;
-       
-    }
-
-    section#cards div.card{
-        width: 50%;
-    }
-
-    div#ancoras{
-        display: block;
-    }
   
 }
