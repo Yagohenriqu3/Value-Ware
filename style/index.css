@@ -3,7 +3,14 @@
     src: url(../font/Furore.otf);
 }
 
+a{
+    color: #02351b;
+    text-decoration: none;
+}
 
+a:hover{
+    text-decoration: none;
+}
 strong{
     color: #044D29;
 }
@@ -554,6 +561,11 @@ section#sobre-nos-mobile{
     section#cards{
         align-items: center;
         width: 100%;
+       
+    }
+
+    section#cards div.card{
+        width: 50%;
     }
 
     div#ancoras{
