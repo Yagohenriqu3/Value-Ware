@@ -1,0 +1,60 @@
+div#ancoras2{
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+#coluna1-cards{
+    display: flex;
+}
+
+#coluna1-cards .card{
+    height: 5rem;
+}
+
+#coluna2-cards{
+    display: flex;
+    width: 67%;
+    margin: auto;
+}
+#coluna2-cards .card{
+    height: 5rem;
+}
+
+
+/*Vmo*/
+
+#p1-educacao img{
+    width: 50%;
+    float: left;
+    margin-right: 10px;
+}
+
+#ul-educacao-vmo{
+    list-style: none;
+}
+
+
+#p2-educacao img{
+    width: 50%;
+    float: right;
+    margin-left: 10px;
+}
+
+/*prospeccao*/
+
+#p1-educacao-prospeccao img{
+    width: 50%;
+    float: right;
+    margin-left: 10px;
+}
+
+#img2-educacao-prospeccao{
+    display: block;
+    width: 70%;
+    margin: auto;
+   
+    
+    
+}

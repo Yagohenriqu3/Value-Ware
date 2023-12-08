@@ -4,11 +4,16 @@
 }
 
 
+strong{
+    color: #044D29;
+}
+
+
 section#home{
-    height: 50rem;
+    height: 20rem;
     width: 100%;
     background-image: url(../img/grafico.jpg);
-    background-position: center;
+    background-position: 70% 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -16,6 +21,69 @@ section#home{
     
 }
 
+section#sobre-nos{
+    background-color: #02351b;
+    display: flex;
+    width: 100%;
+    color: white;
+    height: 35rem;
+    align-items: center;
+    
+}
+
+
+section#sobre-nos div{
+    width: 100%;
+}
+
+section#sobre-nos div img{
+    width: 100%;
+    display: block;
+    
+}
+section#sobre-nos h1{
+   
+    width: 90%;
+    margin-left: 1rem;
+}
+section#sobre-nos p{
+    text-align: justify;
+    width: 90%;
+    margin-left: 1rem;
+}
+
+
+section#redes-sociais{
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 10rem;
+    
+}
+
+section#redes-sociais h2{
+    width: 40%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    
+}
+
+section#redes-sociais div{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    
+    
+}
+
+section#redes-sociais div img{
+    width: 3%;
+    padding: 0px 0rem;
+    margin: auto;
+   
+    
+}
 
 section#home div#container{
     width: 40%;
@@ -25,12 +93,7 @@ section#home div#container{
 
 } 
 
-section#home div#container h1{
-    background-color: rgba(255, 255, 255, 0.219);
-    width: 85%;
-    font-size: 6rem;
-    border-radius: 0.5rem;
-}
+
 
 section#home div#container h2{
     font-weight: bolder;
@@ -41,35 +104,261 @@ section#home div#container h2{
     border-bottom-right-radius: 0.5rem;
 }
 
-section#apresentacao{
-    width: 90%;
+
+div#home-card{
+    background-color: #02351b;
+    width: 100%;
+    right: 5rem;
+
+}
+div.container{
+    width: 100%;
+    
+}
+
+div#titulo-servicos{
+    background-color: #044D29 ;
+    width: 100%;
+    height: 12rem;
+    
+}
+h1#titulo-servicos{
+    text-align: center;
+    margin-top: 1rem;
+    color: white;
+    padding-top: 1rem;
+}
+
+ 
+
+section#cards{
     display: flex;
     margin: auto;
-    text-align: justify;
-    font-size: 1.2rem;
-    border-style: solid;
-    padding: 1rem;
-    border-width: 1px;
-    border-color: lightgrey;
+    width: 70%;
+    margin-top: -7rem;
+    margin-bottom: 2rem;
+    
+   
+    
+}
+
+div.ativo{
+    background-color: #02351b;
+    color: white;
+}
+
+
+div.card-hover:hover{
+    background-color: #02351b;
+    color: white;
+    transition: 0.5s;
+}
+div.card{ 
+    margin: auto;
     margin-top: 1rem;
-    border-radius: 0.5rem;
-    background-color: rgba(240, 237, 237, 0.644);
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.150);
+    
+}
+
+section#conteudo{
+    width: 100%;
+}
+
+section#conteudo div.card{ 
+    margin: auto;
+    margin-top: 1rem;
+    display: flex;
+}
+div#ancoras{
+    display: flex;
+    text-align: center;
+}
+
+div#ancoras div.card:hover{
+    color: #02351b;
+    font-weight: bolder;
+    transition: 0.5s;
+    border-color: #02351b;
+    border-width: 0.1rem;
 }
 
 
-
-section#apresentacao h1{
-    color: #044D29;
-}
-section#apresentacao img{
-    width: 98%;
-    height: 100%;
+section#conteudo img.card-img-top{
+    width: 2.5rem;
 }
 
-section#apresentacao-mobile{
-    display: none;
+div.display{
+    display: flex;
+    align-items: center;
 }
+
+div#text{
+    width: 90%;
+    margin: auto;
+    border-style: solid;
+    border-radius: 1rem;
+    border-width: 0.1px;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-color: rgba(0, 0, 0, 0.308);
+    text-align: justify;
+    background-color: rgb(250, 250, 250);
+
+}
+
+div.bloco1{
+    width: 100%;
+    display: flex;
+}
+
+div.bloco1 p{
+   width: 100%;
+   padding-top: 0rem;
+   padding: 1rem;
+   
+   
+}
+
+div.bloco1 img{
+    float: right;
+    margin-left: 10px;
+    
+ }
+
+div#investir-acreditacao{
+    padding: 2rem;
+    width: 100%;
+    
+    
+}
+
+div#investir-acreditacao img{
+    padding: 2rem;
+    width: 100%;
+    
+    
+    
+}
+
+div#coluna1{
+    display: flex;
+}
+
+div#coluna1 ul{
+    list-style: none;
+      
+}
+
+div#coluna1 ul li{
+
+    width: 100%;
+    height: 15rem;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: #02351b50;
+    padding: 1rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    transition: 1s;
+
+}
+
+div#coluna1 ul li:hover{
+    background-color: #02351b;
+    color:white;
+    transition: 1s;
+
+   
+
+}
+
+
+div#coluna2{
+    display: flex;
+}
+
+div#coluna2 ul{
+    list-style: none;
+    width: 100%;
+     
+}
+
+div#coluna2 ul li{
+    width: 100%;
+    height: 17rem;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: #02351b50;
+    padding: 1rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    transition: 1s;
+}
+
+
+div#coluna2 img{
+    float: left;
+    margin-right: 10px;
+    width: 42%;
+    
+ }
+div#lista-acreditacao{
+    width: 100%;
+    display: flex;
+}
+ ul#lista-acreditacao{
+    width: 100%;
+    
+    list-style: none;
+}
+ul#lista-acreditacao li{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    text-align: center;
+    border-style: solid;
+    border-width: 0.1px;
+    border-radius: 1rem;
+    border-color: rgba(0, 0, 0, 0.295);
+    margin-bottom: 1rem;
+    transition: 1s;
+    
+}
+ul#lista-acreditacao li:hover{
+    border-width: 2px;
+    border-color: #02351b;
+    transition: 1s;
+    font-weight: bold;
+}
+
+div#botao-topo{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: -2rem;
+    
+}
+a#botao-topo{
+    text-decoration: none;
+    color: white;
+
+}
+
+button#botao-topo{
+    background-color: #02351b ;
+    color: white;
+    margin: auto;
+    width: 3.5rem;
+    font-size: 2rem;
+    border-radius: 50rem;
+    cursor: pointer;
+    border-style: none;
+    
+    
+}
+
+
 section#valores{
     text-align: center;
     padding: 2rem 1rem;
@@ -109,74 +398,6 @@ ul.list-group li:hover{
     font-weight: bold;
 }
 
-
-section#cards{
-    display: flex;
-    margin: auto;
-    width: 100%;
-
-    
-}
-
-.botao{
-    background-color: #044D29;
-    padding: 0.6rem 1.2rem;
-    border-radius: 5px;
-    color: white;
-    transition: 0.5s;
-    text-decoration: none;
-    
-}
-
-.botao:hover{
-    text-decoration: none;
-    color: white;
-    background-color: #02351b;
-    transition: 0.5s;
-    
-}
-
-div.card{
-    background-color: rgba(240, 237, 237, 0.644); ;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.150);
-}
-section#cards img{
-    height: 17rem;
-}
-section#cards div{
-    margin: 1rem auto 1rem auto;
-    
-}
-
-section#apresentacao2{
-    width: 90%;
-    display: flex;
-    margin: auto;
-    text-align: justify;
-    font-size: 1.2rem;
-    border-style: solid;
-    padding: 1rem;
-    border-width: 1px;
-    border-color: lightgrey;
-    margin-top: 1rem;
-    border-radius: 0.5rem;
-    background-color: rgba(240, 237, 237, 0.644);
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.150);
-}
-
-section#apresentacao2 p{
-    width: 95%;
-}
-
-section#apresentacao2 h1{
-    color: #044D29;
-}
-section#apresentacao2 img{
-    width: 35rem;
-    
-}
-
-
 section#form{
     width: 90%;
     margin: auto;
@@ -191,6 +412,9 @@ section#form{
     
 }
 
+section#sobre-nos-mobile{
+    display: none;
+}
 
 @media (max-width: 900px) {
     
@@ -204,6 +428,78 @@ section#form{
         background-attachment: fixed; 
     }
     
+    section#sobre-nos-mobile{
+        background-color: #02351b;
+        display: flex;
+        width: 100%;
+        color: white;
+        height: 35rem;
+        align-items: center;
+        
+    }
+    
+    section#sobre-nos{
+        display: none;
+    }
+    
+    section#sobre-nos-mobile{
+        display: block;
+    }
+    section#sobre-nos-mobile div{
+        width: 100%;
+    }
+    
+    section#sobre-nos-mobile div img{
+        width: 100%;
+        display: block;
+        
+    }
+    section#sobre-nos-mobile h1{
+        width: 90%;
+        margin-left: 1rem;
+    }
+    section#sobre-nos-mobile p{
+        text-align: justify;
+        width: 90%;
+        margin-left: 1rem;
+    }
+
+
+    section#redes-sociais{
+        display: block;
+        text-align: center;
+        width: 100%;
+        height: 10rem;
+        
+    }
+    
+    section#redes-sociais h2{
+        font-size: 2rem;
+        width: 100%;
+        margin: auto;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        
+    }
+    
+    section#redes-sociais div{
+        width: 100%;
+        display: flex;
+        margin: auto;
+        
+        
+    }
+    
+    section#redes-sociais div img{
+        width: 10%;
+        padding: 0px 0rem;
+        margin: auto;
+       
+        
+    }
+    
+
+
     
     section#home div#container{
         width: 80%;
@@ -255,6 +551,13 @@ section#form{
     }
 
     
+    section#cards{
+        align-items: center;
+        width: 100%;
+    }
 
+    div#ancoras{
+        display: block;
+    }
   
 }
