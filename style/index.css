@@ -455,10 +455,13 @@ section#sobre-nos-mobile{
     
     section#sobre-nos{
         display: none;
+        
     }
     
     section#sobre-nos-mobile{
         display: block;
+        padding-top: 3rem;
+        
     }
     section#sobre-nos-mobile div{
         width: 100%;
