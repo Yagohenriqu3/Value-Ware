@@ -177,6 +177,12 @@ section#conteudo div.card{
     display: flex;
     width: 100%;
 }
+#conteudo-mobile{
+    display: none;
+}
+#cards-mobile{
+    display: none;
+}
 div#ancoras{
     display: flex;
     text-align: center;
@@ -559,6 +565,162 @@ section#sobre-nos-mobile{
         margin: auto;
     }
 
+  /*div text mobile*/
+
+  div#text{
+    width: 100%;
+    margin: auto;
+    border-style: solid;
+    border-radius: 1rem;
+    border-width: 0.1px;
+    padding: 1.2rem;
+    margin-top: 2rem;
+    border-color: rgba(0, 0, 0, 0.308);
+    text-align: justify;
+    background-color: rgb(250, 250, 250);
+
+}
+
+div.bloco1{
+    width: 100%;
+    display: inline-block;
+}
+
+div.bloco1 p{
+   width: 100%;
+   padding-top: 0rem;
+   padding: 1rem;
+   
+   
+}
+
+div.bloco1 img{
+    float: none;
+    margin-left: 0px;
     
+ }
+
+div#investir-acreditacao{
+    padding: 0rem;
+    width: 100%;
+    
+    
+}
+
+div#investir-acreditacao img{
+    padding: 0rem;
+    width: 100%;
+    
+    
+    
+}
+
+div#coluna1{
+    display: inline-block;
+    justify-content: center;
+    width: 100%;
+   
+    
+}
+
+div#coluna1 ul{
+    width: 100%;
+    list-style: none;
+    text-align: justify;
+    margin: auto;
+    margin-top: 1rem;;
+    
+    
+    
+}
+
+div#coluna1 ul li{
+
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: #02351b50;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    transition: 1s;
+    
+
+}
+
+div#coluna1 ul li:hover{
+    background-color: #02351b;
+    color:white;
+    transition: 1s;
+
+   
+
+}
+
+
+div#coluna2{
+    display: inline-block;
+}
+
+div#coluna2 ul{
+    list-style: none;
+    width: 100%;
+     
+}
+
+div#coluna2 ul li{
+    width: 100%;
+    height: auto;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: #02351b50;
+    padding: 1rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    transition: 1s;
+}
+
+
+div#coluna2 img{
+    float: none;
+    margin: auto;
+    width: 100%;
+    
+ }
+div#lista-acreditacao{
+    width: 100%;
+    display: inline-block;
+}
+ ul#lista-acreditacao{
+    width: 100%;
+    list-style: none;
+}
+ul#lista-acreditacao li{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    text-align: center;
+    border-style: solid;
+    border-width: 0.1px;
+    border-radius: 1rem;
+    border-color: rgba(0, 0, 0, 0.295);
+    margin-bottom: 1rem;
+    transition: 1s;
+    
+}
+ul#lista-acreditacao li:hover{
+    border-width: 2px;
+    border-color: #02351b;
+    transition: 1s;
+    font-weight: bold;
+}
+
+    
+
+
+
   
 }

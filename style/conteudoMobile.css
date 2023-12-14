@@ -1,0 +1,41 @@
+@media (max-width: 900px){
+    section#cards {
+        display: none;
+    }
+    #titulo-servicos{
+        height: 2rem;
+        margin-bottom: -8rem;
+    }
+
+
+    #cards-mobile{
+   margin-top: 0;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+div#ancoras{
+    display: block;
+
+}
+div#text{
+    width: 100%;
+}
+div#text img{
+    width: 100%;
+}
+div#text h2{
+    text-align: left;
+}
+div#text p{
+    width: 100%;
+    padding: 0;
+
+}
+div#text span{
+    padding: 0;
+    width: 100%;
+}
+}
+

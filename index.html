@@ -4,17 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
     <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/index.css">
     <link rel="stylesheet" href="style/footer.css">
     <link rel="stylesheet" href="style/contate.css">
     <link rel="stylesheet" href="style/setoreducacao.css">
+    <link rel="stylesheet" href="style/conteudoMobile.css">
     <script src="js/educacao.js"></script>
     <script src="js/index.js"></script>
     <script src="js/educacao-conteudo.js"></script>
     <title>Value Ware</title>
 </head>
-<body>
+<body onload="acreditacao()">
     <header>
         <img src="img/logo.png" alt="Logo Value Ware">
        
@@ -117,7 +124,7 @@
           </div>
         </div>
       </a>
-
+ 
       <a href="#topo">
         <div class="card  card-hover" id="seletor2" style="width: 25rem; cursor: pointer;" onclick="educacao()">
           <img class="card-img-top" src="img/educacao/gestaoeducacao.jpg" alt="Imagem de capa do card">
@@ -128,6 +135,28 @@
       </a>
       </section>
     
+      <!-- cards mobile-->
+    <section id="cards-mobile">
+      <a href="#topo">
+        <div class="card ativo card-hover" id="seletor1" style="width: 12rem; cursor: pointer;" onclick="saude()" >
+          <img class="card-img-top" src="img/saude/gestaomedicina.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <p class="card-text" id="setor-saude" style="text-align: center;">Setor da saúde</p>
+          </div>
+        </div>
+      </a>
+ 
+      <a href="#topo">
+        <div class="card  card-hover" id="seletor2" style="width: 12rem; cursor: pointer;" onclick="educacao()">
+          <img class="card-img-top" src="img/educacao/gestaoeducacao.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <p class="card-text" id="setor-educacao" style="text-align: center;">Setor da educação</p>
+          </div>
+        </div>
+      </a>
+      </section>
+
+    <!---->
 
 
       <div id="void-container"></div>
@@ -146,7 +175,7 @@
               </div>
             </div>
 
-            <div class="card" style="width: 22rem;" onclick="vmo()">
+            <div class="card" style="width: 22rem;" onclick="vmo()" >
               
               <div class="card-body display" >
                 <img class="card-img-top" src="gif/vmo.gif" alt="Imagem de capa do card" >
@@ -164,222 +193,15 @@
 
 
           <div id="text">
-            <h1 id="p1" style="text-align: center; color:#044D29;"><strong>Preparação para Acreditação</strong></h1>
-              <h2 style="color: #044D29;"><strong>O que é Acreditação?</strong></h2>
-                <div class="bloco1">
-                  <p>
-                    <img src="img/acreditacao.jpg" alt="">
-                      É um processo a que um serviço de saúde se submete voluntariamente (ou seja, se nenhuma
-                      obrigação legal), que mensura e atesta a qualidade de serviços prestados.
-                      É também um importante instrumento de gestão e melhoria contínua de qualidade e
-                      segurança. <br>
-                      Para ser acreditado, o serviço deve comprovadamente atender aos padrões e requisitos
-                      definidos pela Organização Nacional de Acreditação – ONA, Qmentum International ou a Joint
-                      Comission International – JCI.<br>
-                      
-                    A acreditação hospitalar funciona como uma certificação de qualidade, como a ISO, por
-                    exemplo, mas nesse caso é exclusiva para instituições de saúde. A estratégia pode ser
-                    comparada a um programa de educação continuada. <br>
-                    Isso porque também <strong>estimula o entendimento estratégico</strong>, a <strong>
-                        conformidade produtiva
-                        multiprofissional
-                    </strong>, a <strong>racionalização de insumos e a otimização dos resultados</strong> nesses
-                    ambientes. <br>
-                    A <strong>Value Ware</strong> presta consultoria na preparação e melhoria de processos administrativos e
-                    assistenciais, auxiliando sua empresa a alcançar essa certificação e os benefícios que ela acarreta para o seu negócio.
-                   
-                  </p>
-                
-              </div>
-
-                <div id="investir-acreditacao">
-                  <h2 style="color: #044D29;"><strong >Por que investir em Acreditação?</strong></h2>
-                  <p>
-                    <span style="font-weight: 600;">
-                        O processo de acreditação vai muito além da obtenção de uma certificação, é principalmente
-                        uma maneira de melhorar a qualidade dos serviços prestados, conquistar a confiança dos
-                        pacientes e integrar positivamente as equipes.
-                        Veja abaixo alguns dos benefícios que o processo de acreditação traz para a sua instituição:
-                        Os principais benefícios da Acreditação para a instituição e a segurança do paciente são:
-                  </span>
-                </p>
-                    <img src="img/graficos.jpg" alt="">
-                      <div id="coluna1">
-                        <div id="esquerda">
-                          <ul>
-                            <li>
-                              <p>
-                                <strong>▪ Melhoria contínua:</strong> <br> como já citamos este é um processo que visa a melhoria contínua
-                                da Segurança do paciente e dos resultados assistenciais. <br><br>
-                                <strong>
-                              </p>
-                            </li>
-                              
-                              <li>
-                                ▪ Diminuição de retrabalho e redução de custos:</strong>  <br> seguir corretamente a metodologia da
-                                 ONA permite que a instituição diminua erros que aumentam gastos e retrabalho. <br><br>
-                                                            <strong>
-                              </li>
-                              
-                              <li>
-                                ▪ Integração entre os setores e processos:</strong>    <br> toda instituição é um sistema formado por
-                                 várias partes. A Acreditação faz com que todos os setores trabalhem em conjunto
-                                  tendo o mesmo objetivo.
-                              </li>
-                          </ul>
-                          
-                        </div>
-                        <div id="meio">
-                          <ul>
-                            <li>
-                              <strong>▪ Controle dos processos e compromisso com o resultado:</strong> instala-se uma visão geral do
-                              processo permitindo maior controle e organização dos resultados. <br><br>
-                            </li>
-                            <li>
-                              <strong>▪ Visibilidade no mercado:</strong> <br>A instituição passa a ser reconhecida pela sua excelência em
-                              qualidade. <br><br>
-                            </li>
-                            
-                            <li>
-                              <strong>▪ Identificação de riscos e oportunidades:</strong> <br>permite corrigir os erros antes que eles
-                              aconteçam e aproveitar as oportunidades antes dos seus concorrentes. <br>
-                            </li>
-                          </ul>
-                        </div>
-                      <div id="direita">
-                        
-                          <ul>
-                            <li>
-                              <strong>▪ Diferencial competitivo:</strong><br> saia na frente da concorrência provando sua qualidade em
-                              saúde. <br><br>
-                            </li>
-                            <li>
-                              <strong>▪ Credibilidade:</strong><br> Você ganhará credibilidade de médicos, equipe multiprofissional e
-                              pacientes. <br><br>
-                            </li>
-                            
-                            <li>
-                              <strong>▪ Oportunidade de reajuste de tabela:<br></strong> Reajuste de IPCA de 100% a 105% dependendo
-                              dos resultados do Fator de Qualidade <em>
-                                  (Lei nº 13.003/2014 e regulamentado pela
-                                  Instrução Normativa nº 61/2015)
-                              </em>
-                            </li>
-                          </ul>
-                      </div>
-                      </div>
-                </div>
-                  
-                  </p>
-                  <h2 style="color: #044D29;">Como funciona a acreditação hospitalar?</h2>
-                    <div id="coluna2">
-                      
-                      <p>
-                        <img src="img/saude/pexels-nataliya-vaitkevich-8062287.jpg" alt="">
-                          A acreditação hospitalar depende do cumprimento de certos pré-requisitos, que podem variar
-                          de acordo com cada entidade acreditadora. <br>
-                          Em geral, essas exigências incluem a apresentação das licenças sanitárias, a constituição legal
-                          há mais de um ano, alvará de funcionamento, entre outras questões técnicas semelhantes. <br>
-                          Com toda a documentação em dia, o início do processo ainda demanda algumas práticas, que
-                          incluem: <br><br>
-                          <strong>Organização interna</strong> <br>
-                          A avaliação demanda o engajamento de todos os profissionais envolvidos na unidade de saúde,
-                          e é preciso que os mesmos tenham domínio sobre os critérios de acreditação e os priorizem
-                          em suas rotinas. <br>
-                          Além disso, a administração do hospital ou da clínica precisa lidar com as adequações exigidas,
-                          direcionando verbas para reformas na infraestrutura, para a adequação de determinados
-                          serviços, entre outros pontos previstos nas avaliações. <br><br>
-                          <strong>Coordenador responsável</strong><br>
-                          Por mais que a acreditação hospitalar exija esforços coletivos, ela precisa ser gerenciada por
-                          um único profissional incumbido de lidar com todo o processo. <br>
-                          Esse responsável pode ser alguém da própria equipe da unidade, que precisa ser capacitado
-                          para a tarefa, ou ainda um consultor externo contratado. Sua função é:
-                    </div>
-                        <div id="coluna2">
-                         
-                            <ul>
-                              <li>
-                                ▪ Monitorar todos os procedimentos; <br>
-                                ▪ Reconhecer as mudanças necessárias para a adaptação; <br>
-                                ▪ Garantir a transparência das adequações, mantendo contato constante com o time de
-                                direção hospitalar. <br>
-                                ▪ Para dar apoio, agilidade e conformidade a essas tarefas, também é fundamental criar
-                                um comitê de acreditação, composto por profissionais multidisciplinares, capazes de
-                                lidar com as diferentes demandas da unidade no cumprimento dos requisitos.
-                              </li>
-                            </ul>
-                        <br>
-                         
-                            <ul>
-                              <li>
-                                ▪ Capacitação profissional <br>
-                                ▪ Para que a acreditação hospitalar seja possível, todos os serviços prestados na unidade
-                                de saúde devem estar alinhados aos requisitos e parâmetros de melhorias contínuas
-                                estipulados pelos órgãos acreditadores. <br>
-                                ▪ Como os profissionais de uma clínica ou hospital são diretamente responsáveis pelo
-                                cumprimento de suas atividades, é imprescindível promover uma capacitação
-                                completa com toda a equipe. <br>
-                              </li>
-                            </ul>
-                          </div>
-                        
-                        Assim, todo o quadro interno estará alinhado às exigências, não só para desempenhar suas
-                        funções com excelência, mas também para lidar com quesitos de liderança, procedimentos,
-                        gerenciamento de riscos, estratégias, entre outros de natureza semelhante. <br><br>
-                        <strong>Alinhamento de terceiros</strong> <br>
-                        Não são apenas os profissionais internos que são responsáveis pela qualidade das práticas de
-                        uma unidade de saúde, mas também fornecedores e parceiros em geral. <br>
-                        Para adequar-se às exigências da acreditação, muitas vezes pode ser necessário adaptar,
-                        capacitar ou mesmo trocar os responsáveis externos pelos insumos, pelos equipamentos e
-                        materiais e até por serviços como limpeza, lavanderia e alimentação. <br><br>
-                        <strong>Escolha de órgão acreditador</strong><br>
-                        Todas as práticas mencionadas até aqui precisam ser guiadas pelos requisitos próprios de uma
-                        entidade acreditadora. <br>
-                        Este órgão pode ser nacional ou internacional, e inclusive é possível credenciar-se em mais de
-                        uma opção. Confira no item seguinte algumas das mais consagradas certificações da área. <br><br><br>
-                        <strong>Quais atividades são elegíveis para Acreditação?</strong> <br><br>
-
-                        <div id="lista-acreditacao">
-                          <ul id="lista-acreditacao">
-                            <li>▪ Hospitais<br></li>
-                            <li>▪ Ambulatórios<br></li>
-                            <li>▪ Laboratórios de análises clínicas<br></li>
-                            <li>▪ Laboratórios de anatomia patológica<br></li>
-                            <li>▪ Serviços de pronto atendimento<br></li>
-                            <li>▪ Home care<br></li>
-                          </ul>
-
-                            <ul id="lista-acreditacao">
-                              <li>▪ Serviços Oncológicos<br></li>
-                              <li>▪ Serviços de Medicina Hiperbárica<br></li>
-                              <li>▪ Serviços de Hemoterapia<br></li>
-                              <li>▪ Serviços de Nefrologia e Terapia Renal Substitutiva<br></li>
-                            <li>▪ Serviços de Diagnóstico por Imagem<br></li>
-                          </ul>
-
-                            <ul id="lista-acreditacao">
-                              <li>▪ Serviços de Radioterapia<br></li>
-                              <li>▪ Serviços de Medicina Nuclear<br></li>
-                              <li>▪ Serviços Odontológicos<br></li>
-                              <li>▪ Serviços de Processamento de Roupas para a Saúde<br></li>
-                              <li>▪ Serviços de Dietoterapia<br></li>
-                            </ul>
-                            
-                            <ul id="lista-acreditacao">
-                              <li>▪ Serviços de Manipulação e Atenção Farmacêutica<br></li>
-                              <li>▪ Serviços de Esterilização e Reprocessamento de Materiais<br></li>
-                              <li>▪ Serviços de Oftalmologia<br></li>
-                              <li>▪ Serviços de Atenção Primária<br></li>
-                              <li>▪ Serviços de Transporte<br><br></li>
-                            </ul>
-                          
-                        </div>
-                        </p>
+           
           </div>
           
         </section>
         <div id="botao-topo"><a href="#topo" id="botao-topo"><button id="botao-topo">^</button></a></div>
     </div>
+
+
+    
 
     <section id="valores">
         <h1>Princípios e Valores</h1>
