@@ -434,7 +434,7 @@ section#sobre-nos-mobile{
 @media (max-width: 900px) {
     
     section#home{
-        height: 50rem;
+        height: 30rem;
         width: 100%;
         background-image: url(../img/grafico.jpg);
         background-position: center;
