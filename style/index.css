@@ -3,6 +3,10 @@
     src: url(../font/Furore.otf);
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 a{
     color: #02351b;
     text-decoration: none;
@@ -118,6 +122,8 @@ div#home-card{
     right: 5rem;
 
 }
+
+
 div.container{
     width: 100%;
     
@@ -148,6 +154,10 @@ section#cards{
     
    
     
+}
+
+#ancora-card{
+
 }
 
 div.ativo{
